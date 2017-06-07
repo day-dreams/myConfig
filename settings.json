@@ -1,0 +1,52 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "window.zoomLevel": 0,
+  "workbench.activityBar.visible": false,
+
+  // for editor
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "monospace",
+  "editor.fontSize": 20,
+  "editor.formatOnSave": true,
+  "editor.cursorStyle": "line-thin",
+  "editor.minimap.enabled": true,
+
+  // for c++
+  "C_Cpp.autocomplete": "Disabled", //to use plugins
+  "clang.executable": "clang",
+  "clang.cxxflags": [
+    "-std=c++11"
+  ],
+  "C_Cpp.clang_format_fallbackStyle": "LLVM",
+
+  // for markdown
+  "markdown.styles": [
+    "https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/github-markdown.css"
+  ],
+  "markdown.preview.fontFamily": "'Ubuntu'",
+  "markdown.preview.fontSize": 18,
+  "mdmath.style": "https://github.com/sindresorhus/github-markdown-css/blob/gh-pages/github-markdown.css",
+  "mdmath.toc.enabled": true,
+
+  // for c++ debuger
+  "debug.inlineValues": true,
+
+  // for terminal
+  "terminal.integrated.cursorStyle": "underline",
+
+  // for file exclude
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "*.pyc": true
+  },
+
+
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "file-icons"
+
+
+}
