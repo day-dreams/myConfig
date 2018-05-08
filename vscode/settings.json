@@ -1,24 +1,38 @@
 {
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "One Dark Pro Vivid",
-  "atomKeymap.promptV3Features": true,
-  "editor.multiCursorModifier": "ctrlCmd",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "editor.fontSize": 16,
-  "editor.tabCompletion": true,
-  // for debug
-  "debug.inlineValues": true,
-  // for todo highligt
-  "todohighlight.keywordsPattern": "NOTE:|TODO:|FIXME:",
-  // for clang
-  // "clang.completion.completeMacros": false,
-  // "clang.cxxflags": ["-std=c++11"]
-  // "C_Cpp.clang_format_path": "clang-format",
-  // "C_Cpp.clang_format_formatOnSave": true,
-  // "C_Cpp.clang_format_sortIncludes":true,
-  "C_Cpp.clang_format_fallbackStyle": "LLVM"
-  // "C_Cpp.errorSquiggles": "Enabled",
-  // "C_Cpp.intelliSenseEngineFallback":"Disabled"
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "United Ubuntu",
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 18,
+    "editor.detectIndentation": false,
+    //for python
+    "python.formatting.autopep8Args": [],
+    // for debug
+    "debug.inlineValues": true,
+    // for todo highligt
+    "todohighlight.keywordsPattern": "NOTE:|TODO:|FIXME:",
+    // for clang
+    // "C_Cpp.clang_format_style": "{ BasedOnStyle: LLVM, IndentWidth: 4 }",
+    "C_Cpp.clang_format_style": "file",
+    "workbench.iconTheme": "file-icons",
+    "files.useExperimentalFileWatcher": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true
+    },
+    "explorer.confirmDelete": false,
+    // for suggestion
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": false
+    },
+    "editor.snippetSuggestions": "top",
 }
